@@ -1,0 +1,2903 @@
+[
+  {
+    "id": "basic_crate",
+    "name": "Basic Crate",
+    "tags": [
+      "box",
+      "crate",
+      "wooden",
+      "storage"
+    ],
+    "description": "A simple wooden crate used for shipping goods.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      }
+    }
+  },
+  {
+    "id": "flat_mesa",
+    "name": "Flat Mesa",
+    "tags": [
+      "box",
+      "flat",
+      "terrain",
+      "plateau"
+    ],
+    "description": "A wide flat-topped plateau rising from the desert floor.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 4,
+        "height": 0.3,
+        "depth": 4
+      }
+    }
+  },
+  {
+    "id": "tall_monolith",
+    "name": "Tall Monolith",
+    "tags": [
+      "box",
+      "tall",
+      "stone",
+      "obelisk",
+      "ancient"
+    ],
+    "description": "A towering rectangular monolith inspired by ancient obelisks.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 0.5,
+        "height": 4,
+        "depth": 0.5
+      }
+    }
+  },
+  {
+    "id": "shipping_container",
+    "name": "Shipping Container",
+    "tags": [
+      "box",
+      "cargo",
+      "metal",
+      "industrial"
+    ],
+    "description": "A standard intermodal shipping container for freight transport.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 2.4,
+        "height": 2.6,
+        "depth": 6
+      }
+    }
+  },
+  {
+    "id": "skyscraper",
+    "name": "City Skyscraper",
+    "tags": [
+      "box",
+      "building",
+      "city",
+      "architecture",
+      "urban",
+      "glass"
+    ],
+    "description": "A glass and steel skyscraper dominating a city skyline.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 1,
+        "height": 8,
+        "depth": 1
+      }
+    }
+  },
+  {
+    "id": "book",
+    "name": "Hardcover Book",
+    "tags": [
+      "box",
+      "book",
+      "reading",
+      "library",
+      "literature"
+    ],
+    "description": "A thick hardcover novel resting on a wooden shelf.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 0.15,
+        "height": 0.25,
+        "depth": 0.35
+      }
+    }
+  },
+  {
+    "id": "ice_block",
+    "name": "Ice Block",
+    "tags": [
+      "box",
+      "ice",
+      "frozen",
+      "transparent",
+      "arctic",
+      "cold",
+      "glacier"
+    ],
+    "description": "A large clear block of ice with small air bubbles trapped inside.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 1,
+        "height": 1.5,
+        "depth": 0.8
+      }
+    }
+  },
+  {
+    "id": "present_box",
+    "name": "Gift Box",
+    "tags": [
+      "box",
+      "gift",
+      "present",
+      "christmas",
+      "holiday",
+      "wrapped"
+    ],
+    "description": "A brightly wrapped gift box with a ribbon and bow on top.",
+    "geometry": {
+      "type": "box",
+      "params": {
+        "width": 0.6,
+        "height": 0.6,
+        "depth": 0.6
+      }
+    }
+  },
+  {
+    "id": "earth_globe",
+    "name": "Earth Globe",
+    "tags": [
+      "sphere",
+      "planet",
+      "earth",
+      "world",
+      "globe"
+    ],
+    "description": "A smooth globe representing the planet Earth.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 1,
+        "widthSegments": 32,
+        "heightSegments": 32
+      }
+    }
+  },
+  {
+    "id": "sun_star",
+    "name": "Sun",
+    "tags": [
+      "sphere",
+      "sun",
+      "star",
+      "fire",
+      "glowing",
+      "space",
+      "celestial",
+      "yellow"
+    ],
+    "description": "A blazing star radiating intense heat and light.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 2,
+        "widthSegments": 32,
+        "heightSegments": 32
+      }
+    }
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "tags": [
+      "sphere",
+      "moon",
+      "space",
+      "celestial",
+      "crater",
+      "satellite",
+      "grey"
+    ],
+    "description": "The cratered grey surface of Earth's natural satellite.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 0.5,
+        "widthSegments": 32,
+        "heightSegments": 32
+      }
+    }
+  },
+  {
+    "id": "marble_ball",
+    "name": "Marble Ball",
+    "tags": [
+      "sphere",
+      "marble",
+      "toy",
+      "glass",
+      "polished",
+      "small"
+    ],
+    "description": "A small polished marble ball with a glassy finish.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 0.2,
+        "widthSegments": 24,
+        "heightSegments": 24
+      }
+    }
+  },
+  {
+    "id": "gas_giant",
+    "name": "Gas Giant Planet",
+    "tags": [
+      "sphere",
+      "planet",
+      "gas giant",
+      "space",
+      "massive",
+      "jupiter"
+    ],
+    "description": "A massive gas giant planet with smooth atmospheric bands.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 5,
+        "widthSegments": 64,
+        "heightSegments": 64
+      }
+    }
+  },
+  {
+    "id": "water_droplet",
+    "name": "Water Droplet",
+    "tags": [
+      "sphere",
+      "water",
+      "drop",
+      "droplet",
+      "transparent",
+      "liquid",
+      "rain"
+    ],
+    "description": "A single glistening water droplet with perfect surface tension.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 0.15,
+        "widthSegments": 20,
+        "heightSegments": 20
+      }
+    }
+  },
+  {
+    "id": "snowball",
+    "name": "Snowball",
+    "tags": [
+      "sphere",
+      "snow",
+      "winter",
+      "cold",
+      "ice",
+      "frozen",
+      "white"
+    ],
+    "description": "A tightly packed snowball ready to be thrown in a winter fight.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 0.2,
+        "widthSegments": 16,
+        "heightSegments": 16
+      }
+    }
+  },
+  {
+    "id": "bubble",
+    "name": "Soap Bubble",
+    "tags": [
+      "sphere",
+      "bubble",
+      "transparent",
+      "soap",
+      "iridescent",
+      "light",
+      "floating"
+    ],
+    "description": "A delicate iridescent soap bubble floating through the air.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 0.4,
+        "widthSegments": 24,
+        "heightSegments": 24
+      }
+    }
+  },
+  {
+    "id": "low_poly_asteroid",
+    "name": "Asteroid",
+    "tags": [
+      "sphere",
+      "asteroid",
+      "space",
+      "rock",
+      "low-poly"
+    ],
+    "description": "A rough low-polygon asteroid tumbling through space.",
+    "geometry": {
+      "type": "sphere",
+      "params": {
+        "radius": 0.8,
+        "widthSegments": 6,
+        "heightSegments": 4
+      }
+    }
+  },
+  {
+    "id": "soda_can",
+    "name": "Soda Can",
+    "tags": [
+      "cylinder",
+      "beverage",
+      "can",
+      "aluminum",
+      "drink"
+    ],
+    "description": "A standard aluminum soda can found in vending machines.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.33,
+        "radiusBottom": 0.33,
+        "height": 1.2,
+        "radialSegments": 24
+      }
+    }
+  },
+  {
+    "id": "stone_pillar",
+    "name": "Stone Pillar",
+    "tags": [
+      "cylinder",
+      "pillar",
+      "column",
+      "architecture",
+      "classical",
+      "ancient"
+    ],
+    "description": "A tall cylindrical stone pillar supporting a classical structure.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.4,
+        "radiusBottom": 0.45,
+        "height": 5,
+        "radialSegments": 32
+      }
+    }
+  },
+  {
+    "id": "tree_trunk",
+    "name": "Tree Trunk",
+    "tags": [
+      "cylinder",
+      "tree",
+      "trunk",
+      "nature",
+      "forest",
+      "wood"
+    ],
+    "description": "A thick tree trunk section with rough bark texture.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.3,
+        "radiusBottom": 0.5,
+        "height": 2.5,
+        "radialSegments": 12
+      }
+    }
+  },
+  {
+    "id": "lighthouse",
+    "name": "Lighthouse Tower",
+    "tags": [
+      "cylinder",
+      "lighthouse",
+      "coastal",
+      "navigation",
+      "tower",
+      "beacon",
+      "ocean"
+    ],
+    "description": "A striped lighthouse beacon guiding ships safely to shore.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.3,
+        "radiusBottom": 0.4,
+        "height": 4,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "test_tube",
+    "name": "Test Tube",
+    "tags": [
+      "cylinder",
+      "test tube",
+      "science",
+      "lab",
+      "chemistry",
+      "experiment",
+      "glass"
+    ],
+    "description": "A thin glass test tube used in chemistry laboratory experiments.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.08,
+        "radiusBottom": 0.08,
+        "height": 0.5,
+        "radialSegments": 12
+      }
+    }
+  },
+  {
+    "id": "rocket_body",
+    "name": "Rocket Body",
+    "tags": [
+      "cylinder",
+      "rocket",
+      "space",
+      "launch",
+      "spacecraft",
+      "sci-fi"
+    ],
+    "description": "The cylindrical main body of a rocket ready for launch.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.2,
+        "radiusBottom": 0.3,
+        "height": 3,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "candle",
+    "name": "Candle",
+    "tags": [
+      "cylinder",
+      "candle",
+      "fire",
+      "wax",
+      "light",
+      "cozy",
+      "flame"
+    ],
+    "description": "A white wax candle slowly melting with a warm flickering flame.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.1,
+        "radiusBottom": 0.12,
+        "height": 0.8,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "mushroom_stem",
+    "name": "Mushroom Stem",
+    "tags": [
+      "cylinder",
+      "mushroom",
+      "forest",
+      "nature",
+      "fungi",
+      "organic"
+    ],
+    "description": "The short stubby stem of a forest mushroom.",
+    "geometry": {
+      "type": "cylinder",
+      "params": {
+        "radiusTop": 0.15,
+        "radiusBottom": 0.2,
+        "height": 0.4,
+        "radialSegments": 12
+      }
+    }
+  },
+  {
+    "id": "traffic_cone",
+    "name": "Traffic Cone",
+    "tags": [
+      "cone",
+      "traffic",
+      "safety",
+      "road",
+      "orange"
+    ],
+    "description": "A bright orange traffic cone used to direct vehicles.",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 0.3,
+        "height": 0.7,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "tall_spire",
+    "name": "Gothic Spire",
+    "tags": [
+      "cone",
+      "spire",
+      "tower",
+      "gothic",
+      "church",
+      "cathedral",
+      "architecture"
+    ],
+    "description": "A slender gothic spire rising to a sharp point.",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 0.4,
+        "height": 5,
+        "radialSegments": 24
+      }
+    }
+  },
+  {
+    "id": "wizard_hat",
+    "name": "Wizard Hat",
+    "tags": [
+      "cone",
+      "wizard",
+      "hat",
+      "fantasy",
+      "magic",
+      "sorcerer"
+    ],
+    "description": "A tall pointed hat worn by wizards in fantasy tales.",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 0.35,
+        "height": 0.8,
+        "radialSegments": 18
+      }
+    }
+  },
+  {
+    "id": "mountain_peak",
+    "name": "Mountain Peak",
+    "tags": [
+      "cone",
+      "mountain",
+      "peak",
+      "terrain",
+      "nature",
+      "alpine",
+      "snow"
+    ],
+    "description": "A snow-capped mountain peak towering above a valley.",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 3,
+        "height": 4,
+        "radialSegments": 32
+      }
+    }
+  },
+  {
+    "id": "ice_cream_cone",
+    "name": "Ice Cream Cone",
+    "tags": [
+      "cone",
+      "ice cream",
+      "food",
+      "dessert",
+      "sweet",
+      "summer",
+      "waffle"
+    ],
+    "description": "A crispy waffle cone ready to hold a scoop of ice cream.",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 0.2,
+        "height": 0.35,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "volcano",
+    "name": "Volcano",
+    "tags": [
+      "cone",
+      "volcano",
+      "lava",
+      "eruption",
+      "fire",
+      "island",
+      "mountain"
+    ],
+    "description": "A volcanic island rising dramatically from the ocean with lava. ",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 4,
+        "height": 3,
+        "radialSegments": 32
+      }
+    }
+  },
+  {
+    "id": "tree_canopy",
+    "name": "Tree Canopy",
+    "tags": [
+      "cone",
+      "tree",
+      "pine",
+      "evergreen",
+      "forest",
+      "christmas",
+      "nature"
+    ],
+    "description": "The conical canopy of a pine or fir tree covered in needles.",
+    "geometry": {
+      "type": "cone",
+      "params": {
+        "radius": 1.2,
+        "height": 2.5,
+        "radialSegments": 8
+      }
+    }
+  },
+  {
+    "id": "rubber_donut",
+    "name": "Rubber Donut",
+    "tags": [
+      "torus",
+      "donut",
+      "ring",
+      "rubber",
+      "toy"
+    ],
+    "description": "A squishy rubber donut ring used as a chew toy.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 0.5,
+        "tube": 0.2,
+        "radialSegments": 16,
+        "tubularSegments": 32
+      }
+    }
+  },
+  {
+    "id": "saturn_ring",
+    "name": "Saturn Ring",
+    "tags": [
+      "torus",
+      "saturn",
+      "planet",
+      "ring",
+      "space",
+      "orbit"
+    ],
+    "description": "A wide flat ring encircling a gas giant planet like Saturn.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 6,
+        "tube": 0.8,
+        "radialSegments": 4,
+        "tubularSegments": 64
+      }
+    }
+  },
+  {
+    "id": "crown",
+    "name": "Royal Crown",
+    "tags": [
+      "torus",
+      "crown",
+      "royalty",
+      "gold",
+      "king",
+      "jewel",
+      "princess"
+    ],
+    "description": "A bejeweled golden crown worn by royalty at coronations.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 0.5,
+        "tube": 0.1,
+        "radialSegments": 12,
+        "tubularSegments": 32
+      }
+    }
+  },
+  {
+    "id": "car_tire",
+    "name": "Car Tire",
+    "tags": [
+      "torus",
+      "tire",
+      "wheel",
+      "vehicle",
+      "car",
+      "rubber"
+    ],
+    "description": "A thick rubber car tire for an off-road vehicle.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 0.7,
+        "tube": 0.25,
+        "radialSegments": 16,
+        "tubularSegments": 40
+      }
+    }
+  },
+  {
+    "id": "bracelet",
+    "name": "Gold Bracelet",
+    "tags": [
+      "torus",
+      "bracelet",
+      "jewelry",
+      "gold",
+      "accessory",
+      "fashion",
+      "bangle"
+    ],
+    "description": "A polished gold bangle bracelet worn as a fashion accessory.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 0.4,
+        "tube": 0.05,
+        "radialSegments": 10,
+        "tubularSegments": 32
+      }
+    }
+  },
+  {
+    "id": "life_preserver",
+    "name": "Life Preserver",
+    "tags": [
+      "torus",
+      "life preserver",
+      "safety",
+      "nautical",
+      "rescue",
+      "ocean"
+    ],
+    "description": "A buoyant ring thrown to people in the water for rescue.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 0.4,
+        "tube": 0.1,
+        "radialSegments": 12,
+        "tubularSegments": 36
+      }
+    }
+  },
+  {
+    "id": "bagel",
+    "name": "Bagel",
+    "tags": [
+      "torus",
+      "bagel",
+      "bread",
+      "food",
+      "breakfast",
+      "baked"
+    ],
+    "description": "A dense chewy bread roll shaped into a ring.",
+    "geometry": {
+      "type": "torus",
+      "params": {
+        "radius": 0.12,
+        "tube": 0.06,
+        "radialSegments": 16,
+        "tubularSegments": 24
+      }
+    }
+  },
+  {
+    "id": "crystal_gem",
+    "name": "Crystal Gem",
+    "tags": [
+      "icosahedron",
+      "crystal",
+      "gem",
+      "faceted",
+      "mineral"
+    ],
+    "description": "A sparkling multifaceted gem with crisp geometric faces.",
+    "geometry": {
+      "type": "icosahedron",
+      "params": {
+        "radius": 0.5,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "d20_die",
+    "name": "D20 Die",
+    "tags": [
+      "icosahedron",
+      "dice",
+      "d20",
+      "gaming",
+      "tabletop",
+      "rpg"
+    ],
+    "description": "A twenty-sided die used in tabletop role-playing games.",
+    "geometry": {
+      "type": "icosahedron",
+      "params": {
+        "radius": 0.3,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "geo_dome",
+    "name": "Geodesic Dome",
+    "tags": [
+      "icosahedron",
+      "dome",
+      "geodesic",
+      "architecture",
+      "futuristic"
+    ],
+    "description": "A geodesic dome structure made of triangular panels.",
+    "geometry": {
+      "type": "icosahedron",
+      "params": {
+        "radius": 2,
+        "detail": 2
+      }
+    }
+  },
+  {
+    "id": "smooth_orb",
+    "name": "Smooth Orb",
+    "tags": [
+      "icosahedron",
+      "orb",
+      "smooth",
+      "magic",
+      "energy",
+      "round"
+    ],
+    "description": "A highly subdivided orb approximating a perfect sphere.",
+    "geometry": {
+      "type": "icosahedron",
+      "params": {
+        "radius": 1,
+        "detail": 3
+      }
+    }
+  },
+  {
+    "id": "virus",
+    "name": "Virus Particle",
+    "tags": [
+      "icosahedron",
+      "virus",
+      "biology",
+      "microscopic",
+      "science",
+      "organic"
+    ],
+    "description": "A geometric viral capsid with symmetrical protein spikes.",
+    "geometry": {
+      "type": "icosahedron",
+      "params": {
+        "radius": 0.6,
+        "detail": 1
+      }
+    }
+  },
+  {
+    "id": "floor_tile",
+    "name": "Floor Tile",
+    "tags": [
+      "plane",
+      "tile",
+      "floor",
+      "interior",
+      "flat"
+    ],
+    "description": "A single square floor tile for interior surfaces.",
+    "geometry": {
+      "type": "plane",
+      "params": {
+        "width": 1,
+        "height": 1
+      }
+    }
+  },
+  {
+    "id": "billboard_sign",
+    "name": "Billboard Sign",
+    "tags": [
+      "plane",
+      "billboard",
+      "sign",
+      "advertising",
+      "urban"
+    ],
+    "description": "A large flat billboard displaying advertisements along a highway.",
+    "geometry": {
+      "type": "plane",
+      "params": {
+        "width": 6,
+        "height": 3
+      }
+    }
+  },
+  {
+    "id": "canvas_frame",
+    "name": "Canvas Frame",
+    "tags": [
+      "plane",
+      "canvas",
+      "painting",
+      "art",
+      "frame",
+      "gallery"
+    ],
+    "description": "A rectangular canvas stretched over a frame for painting.",
+    "geometry": {
+      "type": "plane",
+      "params": {
+        "width": 0.8,
+        "height": 1.2
+      }
+    }
+  },
+  {
+    "id": "playing_card",
+    "name": "Playing Card",
+    "tags": [
+      "plane",
+      "card",
+      "game",
+      "poker",
+      "flat"
+    ],
+    "description": "A standard rectangular playing card from a poker deck.",
+    "geometry": {
+      "type": "plane",
+      "params": {
+        "width": 0.063,
+        "height": 0.089
+      }
+    }
+  },
+  {
+    "id": "window_pane",
+    "name": "Window Pane",
+    "tags": [
+      "plane",
+      "window",
+      "glass",
+      "transparent",
+      "architectural"
+    ],
+    "description": "A clear glass window pane set into a wall frame.",
+    "geometry": {
+      "type": "plane",
+      "params": {
+        "width": 1.2,
+        "height": 1.5
+      }
+    }
+  },
+  {
+    "id": "alien_artifact",
+    "name": "Alien Artifact",
+    "tags": [
+      "torusknot",
+      "alien",
+      "sci-fi",
+      "mysterious",
+      "twisted",
+      "extraterrestrial"
+    ],
+    "description": "A twisted alien artifact of unknown origin with interlocking loops.",
+    "geometry": {
+      "type": "torusknot",
+      "params": {
+        "radius": 1,
+        "tube": 0.3,
+        "tubularSegments": 64,
+        "radialSegments": 8,
+        "p": 2,
+        "q": 3
+      }
+    }
+  },
+  {
+    "id": "celtic_knot",
+    "name": "Celtic Knot",
+    "tags": [
+      "torusknot",
+      "celtic",
+      "knot",
+      "ornament",
+      "traditional",
+      "medieval",
+      "carved"
+    ],
+    "description": "An ornate Celtic knotwork sculpture with intertwined loops.",
+    "geometry": {
+      "type": "torusknot",
+      "params": {
+        "radius": 0.8,
+        "tube": 0.2,
+        "tubularSegments": 128,
+        "radialSegments": 8,
+        "p": 3,
+        "q": 2
+      }
+    }
+  },
+  {
+    "id": "pretzel",
+    "name": "Pretzel",
+    "tags": [
+      "torusknot",
+      "pretzel",
+      "food",
+      "snack",
+      "baked",
+      "bread",
+      "salty"
+    ],
+    "description": "A salted pretzel twisted into its distinctive knotted shape.",
+    "geometry": {
+      "type": "torusknot",
+      "params": {
+        "radius": 0.5,
+        "tube": 0.15,
+        "tubularSegments": 64,
+        "radialSegments": 8,
+        "p": 2,
+        "q": 3
+      }
+    }
+  },
+  {
+    "id": "dna_strand",
+    "name": "DNA Double Helix",
+    "tags": [
+      "torusknot",
+      "dna",
+      "helix",
+      "science",
+      "biology",
+      "molecular",
+      "genetics"
+    ],
+    "description": "A section of DNA double helix representing the blueprint of life.",
+    "geometry": {
+      "type": "torusknot",
+      "params": {
+        "radius": 0.6,
+        "tube": 0.1,
+        "tubularSegments": 128,
+        "radialSegments": 6,
+        "p": 2,
+        "q": 3
+      }
+    }
+  },
+  {
+    "id": "infinity_knot",
+    "name": "Infinity Knot Sculpture",
+    "tags": [
+      "torusknot",
+      "abstract",
+      "sculpture",
+      "infinity",
+      "modern",
+      "art",
+      "loop"
+    ],
+    "description": "A modern abstract sculpture forming an infinite looping knot.",
+    "geometry": {
+      "type": "torusknot",
+      "params": {
+        "radius": 1.2,
+        "tube": 0.25,
+        "tubularSegments": 128,
+        "radialSegments": 8,
+        "p": 3,
+        "q": 4
+      }
+    }
+  },
+  {
+    "id": "magic_portal",
+    "name": "Magic Portal",
+    "tags": [
+      "ring",
+      "portal",
+      "magic",
+      "gateway",
+      "fantasy",
+      "teleport",
+      "circular"
+    ],
+    "description": "A glowing magical portal ring large enough to step through.",
+    "geometry": {
+      "type": "ring",
+      "params": {
+        "innerRadius": 1.5,
+        "outerRadius": 1.8,
+        "thetaSegments": 32
+      }
+    }
+  },
+  {
+    "id": "angel_halo",
+    "name": "Angel Halo",
+    "tags": [
+      "ring",
+      "halo",
+      "angel",
+      "heaven",
+      "divine",
+      "glow",
+      "holy"
+    ],
+    "description": "A golden glowing halo floating above an angelic figure.",
+    "geometry": {
+      "type": "ring",
+      "params": {
+        "innerRadius": 0.3,
+        "outerRadius": 0.4,
+        "thetaSegments": 32
+      }
+    }
+  },
+  {
+    "id": "neon_ring",
+    "name": "Neon Ring Light",
+    "tags": [
+      "ring",
+      "neon",
+      "light",
+      "glow",
+      "modern",
+      "decor",
+      "sign",
+      "circle"
+    ],
+    "description": "A circular neon tube light glowing with vibrant color.",
+    "geometry": {
+      "type": "ring",
+      "params": {
+        "innerRadius": 0.8,
+        "outerRadius": 0.95,
+        "thetaSegments": 48
+      }
+    }
+  },
+  {
+    "id": "porthole_window",
+    "name": "Ship Porthole",
+    "tags": [
+      "ring",
+      "porthole",
+      "nautical",
+      "window",
+      "ship",
+      "submarine",
+      "ocean"
+    ],
+    "description": "A circular porthole window found on a sailing vessel or submarine.",
+    "geometry": {
+      "type": "ring",
+      "params": {
+        "innerRadius": 0.3,
+        "outerRadius": 0.4,
+        "thetaSegments": 24
+      }
+    }
+  },
+  {
+    "id": "chakram",
+    "name": "Chakram Blade",
+    "tags": [
+      "ring",
+      "chakram",
+      "weapon",
+      "blade",
+      "warrior",
+      "fantasy",
+      "circular"
+    ],
+    "description": "A razor-edged circular throwing weapon used by ancient warriors.",
+    "geometry": {
+      "type": "ring",
+      "params": {
+        "innerRadius": 0.4,
+        "outerRadius": 0.55,
+        "thetaSegments": 32
+      }
+    }
+  },
+  {
+    "id": "space_pod",
+    "name": "Escape Pod",
+    "tags": [
+      "capsule",
+      "space",
+      "pod",
+      "sci-fi",
+      "spacecraft",
+      "emergency",
+      "station"
+    ],
+    "description": "A compact emergency escape pod ejected from a damaged spacecraft.",
+    "geometry": {
+      "type": "capsule",
+      "params": {
+        "radius": 0.6,
+        "length": 1.5,
+        "capSegments": 8,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "medicine_capsule",
+    "name": "Medicine Capsule",
+    "tags": [
+      "capsule",
+      "medicine",
+      "pill",
+      "pharmaceutical",
+      "health",
+      "drug"
+    ],
+    "description": "A standard two-toned pharmaceutical medicine capsule.",
+    "geometry": {
+      "type": "capsule",
+      "params": {
+        "radius": 0.1,
+        "length": 0.25,
+        "capSegments": 8,
+        "radialSegments": 12
+      }
+    }
+  },
+  {
+    "id": "submarine",
+    "name": "Submarine Hull",
+    "tags": [
+      "capsule",
+      "submarine",
+      "underwater",
+      "navy",
+      "military",
+      "vessel",
+      "ocean"
+    ],
+    "description": "The elongated hull of a military submarine cruising below the surface.",
+    "geometry": {
+      "type": "capsule",
+      "params": {
+        "radius": 0.8,
+        "length": 5,
+        "capSegments": 8,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "blimp",
+    "name": "Blimp",
+    "tags": [
+      "capsule",
+      "blimp",
+      "airship",
+      "sky",
+      "floating",
+      "balloon",
+      "advertising"
+    ],
+    "description": "A large advertising blimp floating lazily above a stadium.",
+    "geometry": {
+      "type": "capsule",
+      "params": {
+        "radius": 1.2,
+        "length": 5,
+        "capSegments": 8,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "character_body",
+    "name": "Character Body",
+    "tags": [
+      "capsule",
+      "character",
+      "body",
+      "humanoid",
+      "figure",
+      "person",
+      "robot"
+    ],
+    "description": "A capsule-shaped body used as the torso of a simple character.",
+    "geometry": {
+      "type": "capsule",
+      "params": {
+        "radius": 0.4,
+        "length": 1.0,
+        "capSegments": 8,
+        "radialSegments": 16
+      }
+    }
+  },
+  {
+    "id": "gold_coin",
+    "name": "Gold Coin",
+    "tags": [
+      "circle",
+      "coin",
+      "gold",
+      "money",
+      "treasure",
+      "currency",
+      "disc"
+    ],
+    "description": "A gleaming gold coin embossed with an ancient royal seal.",
+    "geometry": {
+      "type": "circle",
+      "params": {
+        "radius": 0.3,
+        "segments": 24
+      }
+    }
+  },
+  {
+    "id": "manhole_cover",
+    "name": "Manhole Cover",
+    "tags": [
+      "circle",
+      "manhole",
+      "urban",
+      "street",
+      "metal",
+      "iron",
+      "infrastructure"
+    ],
+    "description": "A heavy cast iron manhole cover set into city pavement.",
+    "geometry": {
+      "type": "circle",
+      "params": {
+        "radius": 0.6,
+        "segments": 32
+      }
+    }
+  },
+  {
+    "id": "dartboard",
+    "name": "Dartboard",
+    "tags": [
+      "circle",
+      "dartboard",
+      "pub",
+      "game",
+      "sport",
+      "target",
+      "bullseye"
+    ],
+    "description": "A circular dartboard with numbered scoring sections and a bullseye.",
+    "geometry": {
+      "type": "circle",
+      "params": {
+        "radius": 0.45,
+        "segments": 24
+      }
+    }
+  },
+  {
+    "id": "lily_pad",
+    "name": "Lily Pad",
+    "tags": [
+      "circle",
+      "lily pad",
+      "nature",
+      "pond",
+      "water",
+      "plant",
+      "aquatic"
+    ],
+    "description": "A flat circular lily pad floating on the surface of a still pond.",
+    "geometry": {
+      "type": "circle",
+      "params": {
+        "radius": 0.6,
+        "segments": 24
+      }
+    }
+  },
+  {
+    "id": "circular_mirror",
+    "name": "Round Mirror",
+    "tags": [
+      "circle",
+      "mirror",
+      "reflective",
+      "decor",
+      "wall",
+      "round",
+      "glass"
+    ],
+    "description": "A large round decorative mirror mounted on a living room wall.",
+    "geometry": {
+      "type": "circle",
+      "params": {
+        "radius": 0.5,
+        "segments": 32
+      }
+    }
+  },
+  {
+    "id": "crystal_shard",
+    "name": "Crystal Shard",
+    "tags": [
+      "tetrahedron",
+      "crystal",
+      "shard",
+      "gem",
+      "mineral",
+      "sharp",
+      "angular"
+    ],
+    "description": "A sharp translucent crystal shard with angular facets.",
+    "geometry": {
+      "type": "tetrahedron",
+      "params": {
+        "radius": 0.5,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "fire_gem",
+    "name": "Fire Elemental Gem",
+    "tags": [
+      "tetrahedron",
+      "fire",
+      "elemental",
+      "gem",
+      "magic",
+      "fantasy",
+      "glowing"
+    ],
+    "description": "A glowing fire elemental gem said to hold the essence of flame.",
+    "geometry": {
+      "type": "tetrahedron",
+      "params": {
+        "radius": 0.4,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "pyramid",
+    "name": "Ancient Pyramid",
+    "tags": [
+      "tetrahedron",
+      "pyramid",
+      "ancient",
+      "egypt",
+      "monument",
+      "desert",
+      "stone"
+    ],
+    "description": "A miniature replica of an ancient Egyptian pyramid rising from the desert.",
+    "geometry": {
+      "type": "tetrahedron",
+      "params": {
+        "radius": 2,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "caltrops",
+    "name": "Caltrop Spike",
+    "tags": [
+      "tetrahedron",
+      "spike",
+      "trap",
+      "weapon",
+      "sharp",
+      "medieval"
+    ],
+    "description": "A sharp four-pointed caltrop spike used as a ground obstacle.",
+    "geometry": {
+      "type": "tetrahedron",
+      "params": {
+        "radius": 0.2,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "diamond_gem",
+    "name": "Cut Diamond",
+    "tags": [
+      "octahedron",
+      "diamond",
+      "gem",
+      "precious",
+      "jewelry",
+      "crystal",
+      "brilliant"
+    ],
+    "description": "A brilliantly cut diamond with symmetrical facets catching the light.",
+    "geometry": {
+      "type": "octahedron",
+      "params": {
+        "radius": 0.4,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "fluorite_crystal",
+    "name": "Fluorite Crystal",
+    "tags": [
+      "octahedron",
+      "fluorite",
+      "crystal",
+      "mineral",
+      "purple",
+      "natural",
+      "gem"
+    ],
+    "description": "A natural purple fluorite crystal with perfect octahedral cleavage.",
+    "geometry": {
+      "type": "octahedron",
+      "params": {
+        "radius": 0.5,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "dice_d8",
+    "name": "D8 Die",
+    "tags": [
+      "octahedron",
+      "dice",
+      "d8",
+      "gaming",
+      "tabletop",
+      "rpg",
+      "polyhedral"
+    ],
+    "description": "An eight-sided polyhedral die used in tabletop RPG games.",
+    "geometry": {
+      "type": "octahedron",
+      "params": {
+        "radius": 0.35,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "energy_core",
+    "name": "Energy Core",
+    "tags": [
+      "octahedron",
+      "energy",
+      "core",
+      "sci-fi",
+      "reactor",
+      "power",
+      "glowing"
+    ],
+    "description": "A pulsing energy core powering a futuristic reactor system.",
+    "geometry": {
+      "type": "octahedron",
+      "params": {
+        "radius": 0.6,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "soccer_ball",
+    "name": "Soccer Ball",
+    "tags": [
+      "dodecahedron",
+      "soccer",
+      "football",
+      "sport",
+      "ball",
+      "game",
+      "outdoor"
+    ],
+    "description": "A classic black and white soccer ball used in professional matches.",
+    "geometry": {
+      "type": "dodecahedron",
+      "params": {
+        "radius": 0.5,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "dice_d12",
+    "name": "D12 Die",
+    "tags": [
+      "dodecahedron",
+      "dice",
+      "d12",
+      "gaming",
+      "tabletop",
+      "rpg",
+      "polyhedral"
+    ],
+    "description": "A twelve-sided polyhedral die used in tabletop role-playing games.",
+    "geometry": {
+      "type": "dodecahedron",
+      "params": {
+        "radius": 0.35,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "arcane_orb",
+    "name": "Arcane Orb",
+    "tags": [
+      "dodecahedron",
+      "magic",
+      "arcane",
+      "orb",
+      "fantasy",
+      "wizard",
+      "spell",
+      "glowing"
+    ],
+    "description": "A mystical arcane orb crackling with magical energy.",
+    "geometry": {
+      "type": "dodecahedron",
+      "params": {
+        "radius": 0.5,
+        "detail": 0
+      }
+    }
+  },
+  {
+    "id": "organic_cell",
+    "name": "Biological Cell",
+    "tags": [
+      "dodecahedron",
+      "biology",
+      "cell",
+      "organic",
+      "science",
+      "microscopic",
+      "membrane"
+    ],
+    "description": "A stylized biological cell with twelve-sided membrane structure.",
+    "geometry": {
+      "type": "dodecahedron",
+      "params": {
+        "radius": 0.8,
+        "detail": 1
+      }
+    }
+  },
+  {
+    "id": "pendulum",
+    "name": "Pendulum",
+    "tags": [
+      "pendulum",
+      "swing",
+      "oscillate",
+      "clock",
+      "physics",
+      "hanging"
+    ],
+    "description": "A weighted bob hanging from a pivot rod that swings back and forth.",
+    "shapes": [
+      {
+        "id": "rod",
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 2.5,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#888888",
+          "metalness": 0.8,
+          "roughness": 0.2
+        },
+        "position": [
+          0,
+          3,
+          0
+        ],
+        "animation": {
+          "type": "swing",
+          "axis": "z",
+          "speed": 1.5,
+          "amplitude": 0.5
+        }
+      },
+      {
+        "parent": "rod",
+        "geometry": {
+          "type": "sphere",
+          "params": {
+            "radius": 0.25,
+            "widthSegments": 16,
+            "heightSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc9900",
+          "metalness": 0.9,
+          "roughness": 0.1
+        },
+        "position": [
+          0,
+          -2.5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table_lamp",
+    "name": "Table Lamp",
+    "tags": [
+      "lamp",
+      "light",
+      "furniture",
+      "desk",
+      "interior",
+      "table"
+    ],
+    "description": "A desk lamp with a cylindrical base, slim stem, and conical shade.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.3,
+            "radiusBottom": 0.3,
+            "height": 0.15,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#444444",
+          "metalness": 0.7,
+          "roughness": 0.3
+        },
+        "position": [
+          0,
+          0.075,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 1.2,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#888888",
+          "metalness": 0.8,
+          "roughness": 0.2
+        },
+        "position": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cone",
+          "params": {
+            "radius": 0.5,
+            "height": 0.6,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#f5e6c8",
+          "roughness": 0.8
+        },
+        "position": [
+          0,
+          1.65,
+          0
+        ],
+        "rotation": [
+          3.14159,
+          0,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "sphere",
+          "params": {
+            "radius": 0.06,
+            "widthSegments": 8,
+            "heightSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#ffffcc",
+          "emissive": "#ffffaa",
+          "emissiveIntensity": 2
+        },
+        "position": [
+          0,
+          1.4,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grandfather_clock",
+    "name": "Grandfather Clock",
+    "tags": [
+      "clock",
+      "pendulum",
+      "grandfather",
+      "wood",
+      "antique",
+      "time"
+    ],
+    "description": "A tall wooden grandfather clock with a swinging pendulum and clock face.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "box",
+          "params": {
+            "width": 0.7,
+            "height": 2.2,
+            "depth": 0.4
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#5c3a1e",
+          "texture": "wood"
+        },
+        "position": [
+          0,
+          1.1,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "circle",
+          "params": {
+            "radius": 0.28,
+            "segments": 32
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#f0f0e0",
+          "roughness": 0.3
+        },
+        "position": [
+          0,
+          1.9,
+          0.21
+        ]
+      },
+      {
+        "id": "pendulum_rod",
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.025,
+            "radiusBottom": 0.025,
+            "height": 1.0,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc9900",
+          "metalness": 0.9,
+          "roughness": 0.1
+        },
+        "position": [
+          0,
+          1.4,
+          0
+        ],
+        "animation": {
+          "type": "swing",
+          "axis": "z",
+          "speed": 1.2,
+          "amplitude": 0.3
+        }
+      },
+      {
+        "parent": "pendulum_rod",
+        "geometry": {
+          "type": "sphere",
+          "params": {
+            "radius": 0.12,
+            "widthSegments": 16,
+            "heightSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc9900",
+          "metalness": 0.9,
+          "roughness": 0.1
+        },
+        "position": [
+          0,
+          -1.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "street_lamp",
+    "name": "Street Lamp",
+    "tags": [
+      "lamp",
+      "street",
+      "urban",
+      "light",
+      "city",
+      "outdoor",
+      "pole"
+    ],
+    "description": "A classic street lamp with a tall pole, curved arm, and glowing bulb.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.06,
+            "radiusBottom": 0.12,
+            "height": 4.5,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#333333",
+          "metalness": 0.7,
+          "roughness": 0.4
+        },
+        "position": [
+          0,
+          2.25,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 0.8,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#333333",
+          "metalness": 0.7,
+          "roughness": 0.4
+        },
+        "position": [
+          0.4,
+          4.6,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          1.5708
+        ]
+      },
+      {
+        "geometry": {
+          "type": "sphere",
+          "params": {
+            "radius": 0.15,
+            "widthSegments": 16,
+            "heightSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#ffffcc",
+          "emissive": "#ffffaa",
+          "emissiveIntensity": 2
+        },
+        "position": [
+          0.8,
+          4.6,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cone",
+          "params": {
+            "radius": 0.2,
+            "height": 0.15,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#222222",
+          "metalness": 0.6
+        },
+        "position": [
+          0.8,
+          4.7,
+          0
+        ],
+        "rotation": [
+          3.14159,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dumbbell",
+    "name": "Dumbbell",
+    "tags": [
+      "dumbbell",
+      "weights",
+      "gym",
+      "barbell",
+      "fitness",
+      "exercise"
+    ],
+    "description": "A classic dumbbell with two weight plates connected by a central handle rod.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.5,
+            "radiusBottom": 0.5,
+            "height": 0.25,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#222222",
+          "metalness": 0.8,
+          "roughness": 0.3
+        },
+        "position": [
+          -0.95,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          1.5708
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.12,
+            "radiusBottom": 0.12,
+            "height": 1.6,
+            "radialSegments": 12
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#888888",
+          "metalness": 0.9,
+          "roughness": 0.1
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          1.5708
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.5,
+            "radiusBottom": 0.5,
+            "height": 0.25,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#222222",
+          "metalness": 0.8,
+          "roughness": 0.3
+        },
+        "position": [
+          0.95,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          1.5708
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trophy",
+    "name": "Trophy",
+    "tags": [
+      "trophy",
+      "award",
+      "gold",
+      "cup",
+      "winner",
+      "prize"
+    ],
+    "description": "A shiny gold trophy cup on a stepped base with a stem.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "box",
+          "params": {
+            "width": 0.8,
+            "height": 0.12,
+            "depth": 0.8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#8b6914",
+          "metalness": 0.7,
+          "roughness": 0.4
+        },
+        "position": [
+          0,
+          0.06,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "box",
+          "params": {
+            "width": 0.55,
+            "height": 0.1,
+            "depth": 0.55
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc9900",
+          "metalness": 0.8,
+          "roughness": 0.3
+        },
+        "position": [
+          0,
+          0.17,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.07,
+            "radiusBottom": 0.15,
+            "height": 0.6,
+            "radialSegments": 12
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc9900",
+          "metalness": 0.9,
+          "roughness": 0.1
+        },
+        "position": [
+          0,
+          0.52,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "lathe",
+          "params": {
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                0.35,
+                0.1
+              ],
+              [
+                0.45,
+                0.3
+              ],
+              [
+                0.4,
+                0.55
+              ],
+              [
+                0.3,
+                0.7
+              ],
+              [
+                0.35,
+                0.8
+              ],
+              [
+                0,
+                0.85
+              ]
+            ],
+            "segments": 24
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#ffcc00",
+          "metalness": 0.95,
+          "roughness": 0.05
+        },
+        "position": [
+          0,
+          0.82,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "tags": [
+      "mushroom",
+      "forest",
+      "organic",
+      "fungi",
+      "nature",
+      "plant"
+    ],
+    "description": "A forest mushroom with a fat stem and wide rounded cap.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "capsule",
+          "params": {
+            "radius": 0.22,
+            "length": 0.5,
+            "capSegments": 8,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#e8d5b0",
+          "roughness": 0.9
+        },
+        "position": [
+          0,
+          0.47,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "lathe",
+          "params": {
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                0.6,
+                0.05
+              ],
+              [
+                0.9,
+                0.25
+              ],
+              [
+                0.95,
+                0.5
+              ],
+              [
+                0.8,
+                0.7
+              ],
+              [
+                0.5,
+                0.82
+              ],
+              [
+                0.1,
+                0.88
+              ],
+              [
+                0,
+                0.88
+              ]
+            ],
+            "segments": 24
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#c0392b",
+          "roughness": 0.7
+        },
+        "position": [
+          0,
+          0.82,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "telescope",
+    "name": "Telescope",
+    "tags": [
+      "telescope",
+      "astronomy",
+      "lens",
+      "observatory",
+      "space",
+      "science"
+    ],
+    "description": "A refractor telescope on a tripod mount pointed toward the sky.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.12,
+            "radiusBottom": 0.05,
+            "height": 1.5,
+            "radialSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#222244",
+          "metalness": 0.6,
+          "roughness": 0.4
+        },
+        "position": [
+          0,
+          1.3,
+          0
+        ],
+        "rotation": [
+          0.4,
+          0,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.07,
+            "radiusBottom": 0.07,
+            "height": 0.2,
+            "radialSegments": 12
+          }
+        },
+        "material": {
+          "type": "physical",
+          "color": "#888888",
+          "transmission": 0.6,
+          "ior": 1.5,
+          "thickness": 0.2
+        },
+        "position": [
+          0,
+          2.02,
+          -0.59
+        ],
+        "rotation": [
+          0.4,
+          0,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 1.1,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#555555",
+          "metalness": 0.7
+        },
+        "position": [
+          -0.4,
+          0.55,
+          0.1
+        ],
+        "rotation": [
+          0.3,
+          0,
+          0.5
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 1.1,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#555555",
+          "metalness": 0.7
+        },
+        "position": [
+          0.4,
+          0.55,
+          0.1
+        ],
+        "rotation": [
+          0.3,
+          0,
+          -0.5
+        ]
+      },
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 1.1,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#555555",
+          "metalness": 0.7
+        },
+        "position": [
+          0,
+          0.55,
+          -0.4
+        ],
+        "rotation": [
+          -0.5,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chandelier",
+    "name": "Chandelier",
+    "tags": [
+      "chandelier",
+      "ceiling",
+      "crystal",
+      "hanging",
+      "light",
+      "luxury",
+      "interior"
+    ],
+    "description": "An ornate ceiling chandelier with a central ring and hanging crystal pendants.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.04,
+            "radiusBottom": 0.04,
+            "height": 0.6,
+            "radialSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#888866",
+          "metalness": 0.8
+        },
+        "position": [
+          0,
+          3.7,
+          0
+        ]
+      },
+      {
+        "id": "ring",
+        "geometry": {
+          "type": "torus",
+          "params": {
+            "radius": 0.7,
+            "tube": 0.04,
+            "radialSegments": 8,
+            "tubularSegments": 32
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc9900",
+          "metalness": 0.9,
+          "roughness": 0.1
+        },
+        "position": [
+          0,
+          3.4,
+          0
+        ]
+      },
+      {
+        "parent": "ring",
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.02,
+            "radiusBottom": 0.02,
+            "height": 0.35,
+            "radialSegments": 6
+          }
+        },
+        "material": {
+          "type": "physical",
+          "color": "#aaddff",
+          "transmission": 0.85,
+          "ior": 1.6,
+          "thickness": 0.1
+        },
+        "position": [
+          0.7,
+          -0.18,
+          0
+        ]
+      },
+      {
+        "parent": "ring",
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.02,
+            "radiusBottom": 0.02,
+            "height": 0.35,
+            "radialSegments": 6
+          }
+        },
+        "material": {
+          "type": "physical",
+          "color": "#aaddff",
+          "transmission": 0.85,
+          "ior": 1.6,
+          "thickness": 0.1
+        },
+        "position": [
+          -0.7,
+          -0.18,
+          0
+        ]
+      },
+      {
+        "parent": "ring",
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.02,
+            "radiusBottom": 0.02,
+            "height": 0.35,
+            "radialSegments": 6
+          }
+        },
+        "material": {
+          "type": "physical",
+          "color": "#aaddff",
+          "transmission": 0.85,
+          "ior": 1.6,
+          "thickness": 0.1
+        },
+        "position": [
+          0,
+          -0.18,
+          0.7
+        ]
+      },
+      {
+        "parent": "ring",
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.02,
+            "radiusBottom": 0.02,
+            "height": 0.35,
+            "radialSegments": 6
+          }
+        },
+        "material": {
+          "type": "physical",
+          "color": "#aaddff",
+          "transmission": 0.85,
+          "ior": 1.6,
+          "thickness": 0.1
+        },
+        "position": [
+          0,
+          -0.18,
+          -0.7
+        ]
+      },
+      {
+        "geometry": {
+          "type": "sphere",
+          "params": {
+            "radius": 0.12,
+            "widthSegments": 16,
+            "heightSegments": 16
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#ffffcc",
+          "emissive": "#ffffaa",
+          "emissiveIntensity": 2
+        },
+        "position": [
+          0,
+          3.25,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "analog_clock",
+    "name": "Analog Clock",
+    "tags": [
+      "clock",
+      "analog",
+      "time",
+      "hands",
+      "wall",
+      "watch"
+    ],
+    "description": "A circular wall clock with rotating hour and minute hands.",
+    "shapes": [
+      {
+        "geometry": {
+          "type": "cylinder",
+          "params": {
+            "radiusTop": 0.8,
+            "radiusBottom": 0.8,
+            "height": 0.08,
+            "radialSegments": 32
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#f5f0e0",
+          "roughness": 0.5
+        },
+        "position": [
+          0,
+          1.5,
+          0
+        ],
+        "rotation": [
+          1.5708,
+          0,
+          0
+        ]
+      },
+      {
+        "geometry": {
+          "type": "torus",
+          "params": {
+            "radius": 0.8,
+            "tube": 0.05,
+            "radialSegments": 8,
+            "tubularSegments": 32
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#5c3a1e",
+          "texture": "wood"
+        },
+        "position": [
+          0,
+          1.5,
+          0
+        ],
+        "rotation": [
+          1.5708,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "minute_hand",
+        "geometry": {
+          "type": "box",
+          "params": {
+            "width": 0.05,
+            "height": 0.6,
+            "depth": 0.03
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#111111",
+          "metalness": 0.7
+        },
+        "position": [
+          0,
+          1.5,
+          -0.06
+        ],
+        "animation": {
+          "type": "rotate",
+          "axis": "z",
+          "speed": -0.1
+        }
+      },
+      {
+        "id": "hour_hand",
+        "geometry": {
+          "type": "box",
+          "params": {
+            "width": 0.07,
+            "height": 0.38,
+            "depth": 0.03
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#111111",
+          "metalness": 0.7
+        },
+        "position": [
+          0,
+          1.5,
+          -0.07
+        ],
+        "animation": {
+          "type": "rotate",
+          "axis": "z",
+          "speed": -0.0083
+        }
+      },
+      {
+        "geometry": {
+          "type": "sphere",
+          "params": {
+            "radius": 0.05,
+            "widthSegments": 8,
+            "heightSegments": 8
+          }
+        },
+        "material": {
+          "type": "standard",
+          "color": "#cc2200",
+          "metalness": 0.8
+        },
+        "position": [
+          0,
+          1.5,
+          -0.08
+        ]
+      }
+    ]
+  }
+]
